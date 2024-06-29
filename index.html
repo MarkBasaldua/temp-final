@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1 >Temperature <span>Converter</span></h1>
+    
+    </header>
+    <main>
+        <form class="form">
+            <input type="number" id="startValue" placeholder="Start Temperature">
+            <input type="number" id="endValue" placeholder="End Temperature">
+            <select id="scale">
+                <option value="C">Celsius</option>
+                <option value="F">Fahrenheit</option>
+            </select>
+            <button type="button" onclick="convertTemperatureRange()">Convert</button>
+        </form>
+        <div id="results" class="results-container"></div>
+    </main>
+    <footer>
+        <div class="navigation-bar">
+            <a href="#!">Privacy Policy</a>
+            <a href="#!">Terms of Use</a>
+        </div>
+        <p>&copy; 2024 Temperature Converter. All rights reserved.</p>
+    </footer>
+    <button id="back-to-top">Back to Top</button>
+    <script src="./scripts.js"></script>
+</body>
+</html>

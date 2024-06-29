@@ -1,0 +1,108 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+form {
+    margin-top: 20px;
+    background-color: #300030; /* Same as the results area for consistency */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Space between form elements */
+}
+
+input[type="number"], select, button {
+    padding: 10px;
+    margin: 0 5px; /* Spacing for aesthetic */
+    color: #FFF;
+    background: #301030; /* Darker tone for form elements */
+    border: 1px solid #482048; /* Slight border for definition */
+    border-radius: 5px;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C2DACE; /* Seafoam for a fresh header background */
+    padding: 20px 0;
+}
+header h1 {
+    font-family: 'Arial', sans-serif; /* Professional, widely supported font */
+    font-size: 24px;
+    color: #087E8B; /* Tropic Blue for "Temperature" */
+}
+header h1 span {
+    color: #E7B9B4; /* Hibiscus for "Converter" */
+}
+
+
+button {
+    background-color: #FF1493; /* Brighter button color */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FF69B4; /* Lighter when hovered */
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #2C2C2C; /* Obsidian for footer */
+    color: #E5DED2; /* Crane for text */
+    text-align: center;
+    padding: 10px 0;
+}
+#results {
+    margin-top: 25px; /* Adjusting the gap */
+    background-color: #300030; /* As specified */
+    padding: 15px;
+    width: 80%;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+.result-item {
+    background-color: #301030; /* Darker tone for individual results */
+    color: #FFF;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+form {
+    margin-top: 20px;
+    background-color: #300030; /* Consistent with results area */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Space between form elements */
+}
+input[type="number"], select {
+    padding: 10px;
+    margin: 0 5px;
+    background: #301030;
+    color: #FFF;
+    border: 1px solid #482048;
+    border-radius: 5px;
+}
+button {
+    padding: 10px;
+    background-color: #FF1493;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #FF69B4;
+}
